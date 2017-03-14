@@ -201,6 +201,16 @@
 			line-height: 1em;
 			z-index: 2;
 		}
+		.item.thumb5 h2 {
+			bottom: 0;
+			left: 0;
+			background: #1f4851;
+			width: 100%;
+			padding: 1em;
+			font-weight: 400;
+			line-height: 1em;
+			z-index: 2;
+		}
 /* Icons */
 
 	.icon {
@@ -333,6 +343,21 @@
 				min-height: 450px;
 				min-width: 1000px;
 			}
+			body.ho {
+				background-image: url("images/overlay.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/mn_back/mn5.jpg");
+				background-image: url("images/overlay.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/mn_back/mn5.jpg");
+				background-image: url("images/overlay.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/mn_back/mn5.jpg");
+				background-image: url("images/overlay.png"), linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/mn_back/mn5.jpg");
+				background-position: top left, bottom left, auto;
+				background-size: auto, 100% 100%, cover;
+				background-repeat: repeat, no-repeat, auto;
+				padding: 0;
+				font-size: 12pt;
+				line-height: 1.75em;
+				height: 100%;
+				min-height: 450px;
+				min-width: 1000px;
+			}
 			
 		/* List */
 
@@ -427,6 +452,20 @@
 					position: relative;
 					overflow: hidden;
 					background-color: #fce19f;
+				}
+				#reel .thumb5{
+					display: block;
+					float: left;
+					position: relative;
+					overflow: hidden;
+					background-color:#84fcff;
+				}
+				#reel .thumb_5{
+					display: block;
+					float: left;
+					position: relative;
+					overflow: hidden;
+					background-color:#665284;
 				}
 
 		/* Header */
