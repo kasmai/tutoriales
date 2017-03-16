@@ -660,13 +660,12 @@
 		/* Item */
 			.item {
 				border: 0;
-				z-index: 2;
 			}
 
 				.item.thumb {
-					width: 80%;
 					margin-left: auto;
 					margin-right: auto;
+					width: 80%;
 					height: 13em;
 					position: relative;
 				}
@@ -683,18 +682,13 @@
 						opacity: 0.75;
 					}					
 					.item.thumb a {
-						position: relative;
 						left: auto;
 						top: auto;
 						width: 100%;
 					}
 
 					.item.thumb img {
-						display: block;
-						z-index: 1;
-						box-sizing: 
-
-
+						padding: 1px 2px 2px 1px;
 					}
 
 		/* Wrapper */
