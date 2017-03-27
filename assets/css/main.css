@@ -649,7 +649,7 @@
 			body {
 				font-size: 12pt;
 				line-height: 1.75em;
-				background-color: #230f1f;
+				background-color:#8e5583;
 
 			}
 		/* List */
@@ -667,11 +667,9 @@
 				.item.thumb {
 					margin-left: auto;
 					margin-right: auto;
-					/*width: 80%;*/
 					height: 300px;
-					width: 180px;
+					width: 200px;
 					position: relative;
-					width: 150;
 				}
 
 					.item.thumb h2 {
@@ -689,7 +687,6 @@
 						left: auto;
 						width: 50%;
 					}
-
 		/* Wrapper */
 
 			#wrapper.overlayed {
