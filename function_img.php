@@ -1,11 +1,11 @@
 <?php
 
 include 'conDB.php';
-	$id=2;
+	#$id=2;
 
-	$file = 'images/owners/2/gy_10.png';
+	#$file = 'images/owners/2/gy_10.png';
 	
-	$image = imagecreatefromjpeg($file);
+	/*$image = imagecreatefromjpeg($file);
 	ob_start();
 	imagejpeg($image);
 	$jpg = ob_get_contents();
@@ -18,7 +18,7 @@ include 'conDB.php';
 	$tipo = image_type_to_mime_type($val);
 	$tamaño = filesize($file);
 	$ruta = $file;
-	 print_r("Ruta: ".$file ."<br>Ancho:". $ancho ."<br>Alto: ". $alto . "<br>Tipo de imagen: " . $tipo . "<br>Tama&ntilde;o : " . $tamaño . " bytes");
+	 print_r("Ruta: ".$file ."<br>Ancho:". $ancho ."<br>Alto: ". $alto . "<br>Tipo de imagen: " . $tipo . "<br>Tama&ntilde;o : " . $tamaño . " bytes");*/
 
 function insImgOwners($alto,$ancho,$tipo,$ruta)
 {
@@ -52,10 +52,9 @@ function viewImg($id)
 	       		if($result != null)
 	       		{
 	       			$miruta = $result[0][0];
-	       			echo "<br><br>".$miruta . "<br><br>";
-
+	       			/*echo "<br><br>".$miruta . "<br><br>";*/
 	       			echo '<img src='.$miruta.' alt="">';
-
+	       			
 	       		}
 	       		else if($result == null)
 	       		{
