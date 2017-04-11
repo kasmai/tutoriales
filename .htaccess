@@ -1,2 +1,6 @@
 ErrorDocument 404 /rne.html
+ #Options -Indexes
+ #RewriteEngine on
+ #RewriteCond %{REQUEST_URI} ^.*/tutorial_css/.*$
+ #RewriteRule .*$ forbidden.html
 
