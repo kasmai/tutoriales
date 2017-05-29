@@ -52,9 +52,7 @@ function viewImg($id)
 	       		if($result != null)
 	       		{
 	       			$miruta = $result[0][0];
-	       			/*echo "<br><br>".$miruta . "<br><br>";*/
-	       			echo '<img src='.$miruta.' alt="">';
-	       			
+	       			echo '<a href='.$miruta.' class="image"><img src='.$miruta.' alt=""></a>';
 	       		}
 	       		else if($result == null)
 	       		{
@@ -72,5 +70,6 @@ function viewImg($id)
 #insImgOwners($alto,$ancho,$tipo,$ruta);
 #<img src="obtenerfotografia.php?id=21"/>
 #viewImg($id);
+#phpinfo();
 
 ?>
