@@ -692,7 +692,7 @@ span {
 .regtext {
     font-size: 13px;
     margin-top: 26px;
-    color: #777;
+    color: #ffffff;
 }
  
 /*= CONTAINERS
@@ -728,7 +728,7 @@ span {
 }
  
 .container label {
-    color: #777;
+    color: #280028;
     font-size: 14px;
 }
  
