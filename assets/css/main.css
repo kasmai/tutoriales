@@ -295,6 +295,21 @@
 				min-height: 450px;
 				min-width: 1000px;
 			}
+			body.log{
+				background-image: url("images/overlay.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/mn_pri/mn_6.png");
+				background-image: url("images/overlay.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/mn_pri/mn_6.png");
+				background-image: url("images/overlay.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/mn_pri/mn_6.png");
+				background-image: url("images/overlay.png"), linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/mn_pri/mn_6.png");
+				background-position: top left, bottom left, auto;
+				background-size: auto, 100% 100%,cover;
+				background-repeat: repeat, no-repeat, auto;
+				padding: 0;
+				font-size: 12pt;
+				line-height: 1.75em;
+				height: 100%;
+				min-height: 450px;
+				min-width: 1000px;
+			}
 			body.yuki {
 				background-image: url("images/overlay.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/mn_back/mn1.jpg");
 				background-image: url("images/overlay.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/mn_back/mn1.jpg");
@@ -652,6 +667,9 @@ span {
     font-weight: 300;
     color: #f58220;
 }
+.input{
+	font color : #cf8fef;
+}
  
 .mlogin {
     margin: 170px auto 0;
@@ -688,7 +706,7 @@ span {
     -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.13);
     -moz-box-shadow: 0 1px 3px rgba(0,0,0,.13);
     box-shadow: 0 1px 3px rgba(0,0,0,.13);
-   
+
 }
  
 #welcome {
@@ -721,14 +739,15 @@ span {
 }
  
 .container form .input,.container input[type=text],.container input[type=password],.container input[type=e] {
-    background: #fbfbfb;
+    background: #fde0ff;
     font-size: 24px;
     line-height: 1;
     width: 100%;
     padding: 3px;
     margin: 0 6px 5px 0;
     outline: none;
-    border: 1px solid #d9d9d9;
+    border: 1px solid #430172;
+    font color :#000002;
 }
  
 .container form .input:focus {
