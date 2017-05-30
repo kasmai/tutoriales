@@ -19,7 +19,23 @@ include 'conDB.php';
 	$tamaño = filesize($file);
 	$ruta = $file;
 	 print_r("Ruta: ".$file ."<br>Ancho:". $ancho ."<br>Alto: ". $alto . "<br>Tipo de imagen: " . $tipo . "<br>Tama&ntilde;o : " . $tamaño . " bytes");*/
-
+function insertUser($full_name,$email,$username,$password)
+{
+	$con = conecta();
+	$query = "INSERT INTO UserSite (full_name,email,username,password) VALUES (?,?,?,?);";
+	 try{
+	       $stmt = $con->prepare($query);
+	       $stmt->bindParam(1,$full_name);
+	       $stmt->bindParam(2,$email);
+	       $stmt->bindParam(3,$username);
+	       $stmt->bindParam(4,$password);
+	       $stmt->execute();
+	       echo "<br>Registro insertado";
+	   	}
+	   catch (PDOException $ex) {
+	       echo $ex->getMessage();
+	   	}
+} 
 function insImgOwners($alto,$ancho,$tipo,$ruta)
 {
 	$con = conecta();
