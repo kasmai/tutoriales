@@ -91,9 +91,15 @@
 		-ms-transition: color 0.25s ease-in-out;
 		transition: color 0.25s ease-in-out;
 	}
-
+	
 		a:hover.log{
 			color: #100a38;
+		}
+		a.aftlog{
+			color: #a354ce;
+		}
+		a:hover.aftlog{
+			color: #000000;
 		}
 		a:hover.reg{
 			color: #f78fc3;
@@ -686,7 +692,7 @@
 /*------------------LOGIN---------------------------------------*/
 span {
     font-weight: 300;
-    color: #f58220;
+    color: #cc6bdb;
 }
 .input{
 	font color : #cf8fef;
