@@ -18,7 +18,7 @@ include 'header.php';
 		<div id="login">
 		<div class="item thumb2 log" data-width="282">
 				 <h2>Registrar</h2>
-				<form name="registerform" id="registerform" action="registro.php" method="POST">
+				<form name="registro" id="registro" action="registro.php" method="POST">
 				 <p>
 				 <label for="user_login">Nombre Completo <br />
 				 <input type="text" name="full_name" id="full_name" class="input" size="32" value="" required/></label>
